@@ -1,17 +1,6 @@
 # awesome-point-cloud-analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-for anyone who wants to do research about 3D point cloud.   
-I will try to update this list everyday!!!
-
-<h1> 
-
-```diff
-- Recent papers (from 2017)
-```
-
-</h1>
-
-# Table of Contents
+## Table of Contents
 
 - [2017](#2017)
 - [2018](#2018)
@@ -19,17 +8,15 @@ I will try to update this list everyday!!!
 - [2020](#2020) [CVPR: 70 papers; ECCV: 39 papers]
 - [2021](#2021) [CVPR: 2 paper]
 
-<h3> Keywords </h3>
+## Keywords
 
 __`dat.`__: dataset &emsp; | &emsp; __`cls.`__: classification &emsp; | &emsp; __`rel.`__: retrieval &emsp; | &emsp; __`seg.`__: segmentation     
 __`det.`__: detection &emsp; | &emsp; __`tra.`__: tracking &emsp; | &emsp; __`pos.`__: pose &emsp; | &emsp; __`dep.`__: depth     
 __`reg.`__: registration &emsp; | &emsp; __`rec.`__: reconstruction &emsp; | &emsp; __`aut.`__: autonomous driving     
 __`oth.`__: other, including normal-related, correspondence, mapping, matching, alignment, compression, generative model...
 
-Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citation >= 50
-
----
 ## 2017	
+
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)] PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. [[tensorflow](https://github.com/charlesq34/pointnet)][[pytorch](https://github.com/fxia22/pointnet.pytorch)] [__`cls.`__ __`seg.`__ __`det.`__] :fire: :star:	
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Simonovsky_Dynamic_Edge-Conditioned_Filters_CVPR_2017_paper.pdf)] Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs. [__`cls.`__] :star:	
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yi_SyncSpecCNN_Synchronized_Spectral_CVPR_2017_paper.pdf)] SyncSpecCNN: Synchronized Spectral CNN for 3D Shape Segmentation. [[torch](https://github.com/ericyi/SyncSpecCNN)] [__`seg.`__ __`oth.`__] :star:	
@@ -67,8 +54,8 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 -	
 - [[TPAMI](https://ieeexplore.ieee.org/ielx7/34/8454009/08046026.pdf?tp=&arnumber=8046026&isnumber=8454009&ref=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8=)] Structure-aware Data Consolidation. [__`oth.`__]	
 
----	
 ## 2018	
+
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2018/papers/Su_SPLATNet_Sparse_Lattice_CVPR_2018_paper.pdf)] SPLATNet: Sparse Lattice Networks for Point Cloud Processing. [[caffe](https://github.com/NVlabs/splatnet)] [__`seg.`__] :fire:	
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xie_Attentional_ShapeContextNet_for_CVPR_2018_paper.pdf)] Attentional ShapeContextNet for Point Cloud Recognition. [__`cls.`__ __`seg.`__]	
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf)] Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling. [[code](http://www.merl.com/research/license#KCNet)] [__`cls.`__ __`seg.`__]	
@@ -200,8 +187,8 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 - [[arXiv](https://arxiv.org/abs/1810.05591)] PointGrow: Autoregressively Learned Point Cloud Generation with Self-Attention. [[project](https://liuziwei7.github.io/projects/PointGrow)] [__`oth.`__]	
 - [[arXiv](https://arxiv.org/pdf/1810.05795.pdf)] Point Cloud GAN. [[pytorch](https://github.com/chunliangli/Point-Cloud-GAN)] [__`oth.`__]
 
----	
 ## 2019
+
 - [[CVPR](http://export.arxiv.org/abs/1904.07601)] Relation-Shape Convolutional Neural Network for Point Cloud Analysis. [[pytorch](https://github.com/Yochengliu/Relation-Shape-CNN)] [__`cls.`__ __`seg.`__ __`oth.`__] :fire:
 - [[CVPR](https://raoyongming.github.io/files/SFCNN.pdf)] Spherical Fractal Convolutional Neural Networks for Point Cloud Recognition. [__`cls.`__ __`seg.`__]
 - [[CVPR](https://arxiv.org/abs/1811.11397)] DeepMapping: Unsupervised Map Estimation From Multiple Point Clouds. [[code](https://ai4ce.github.io/DeepMapping/)] [__`reg.`__]
@@ -423,8 +410,8 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 - [[arXiv](https://arxiv.org/pdf/1909.07137v1.pdf)] PLIN: A Network for Pseudo-LiDAR Point Cloud Interpolation. [__`oth.`__]
 - [[arXiv](https://arxiv.org/abs/1904.08159)] 3D Object Recognition with Ensemble Learning --- A Study of Point Cloud-Based Deep Learning Models. [__`cls.`__ __`det.`__]
 
----
 ## 2020
+
 - [[AAAI](https://arxiv.org/abs/1912.00280)] Morphing and Sampling Network for Dense Point Cloud Completion. [[pytorch](https://github.com/Colin97/MSN-Point-Cloud-Completion)] [__`oth.`__]
 - [[AAAI](https://arxiv.org/pdf/1912.05163.pdf)] TANet: Robust 3D Object Detection from Point Clouds with Triple Attention. [[code](https://github.com/happinesslz/TANet)] [__`det.`__ __`aut.`__]
 - [[AAAI](https://arxiv.org/abs/1912.10775)] Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling. [__`seg.`__ __`cls.`__]
@@ -701,16 +688,13 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 - [[IROS](https://arxiv.org/pdf/2008.11459.pdf)] Semantic Graph Based Place Recognition for 3D Point Clouds. [__`Place Recognition`__]
 - [[IROS](http://ras.papercept.net/images/temp/IROS/files/1208.pdf)] PillarFlowNet: A Real-time Deep Multitask Network for LiDAR-based 3D Object Detection and Scene Flow Estimation. [__`Detection, Flow`__]
 - [[IROS](https://arxiv.org/pdf/2011.14579.pdf)] End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences.[__` Registration `__]
--
 - [[3DV](https://arxiv.org/pdf/2010.08243.pdf)] SF-UDA3D: Source-Free Unsupervised Domain Adaptation for LiDAR-Based 3D Object Detection. [__`Detection`__]
 - [[3DV](https://arxiv.org/abs/2011.00320)] Scene Flow from Point Clouds with or without Learning. [__`Flow `__]
 - [[3DV](https://arxiv.org/abs/2011.02229)] Registration Loss Learning for Deep Probabilistic Point Set Registration. [[pytorch](https://github.com/felja633/RLLReg)][__` Registration`__]
 - [[3DV](https://arxiv.org/abs/2010.09185)] MaskNet: A Fully-Convolutional Network to Estimate Inlier Points. [[pytorch](https://github.com/vinits5/masknet)][__` Registration`__]
-- 
 - [[ACM MM](https://arxiv.org/pdf/2007.13970.pdf)] Weakly Supervised 3D Object Detection from Point Clouds. [[code](https://github.com/Zengyi-Qin/Weakly-Supervised-3D-Object-Detection)][__`Detection`__]
 - [[ACM MM](https://arxiv.org/pdf/2007.13551.pdf)] Differentiable Manifold Reconstruction for Point Cloud Denoising. [[pytorch](https://github.com/luost26/DMRDenoise)][__`Denoising`__]
 - [[ACM MM](https://arxiv.org/pdf/2008.04968.pdf)] Campus3D: A Photogrammetry Point Cloud Benchmark for Hierarchical Understanding of Outdoor Scene. [__`Understanding`__]
-- 
 - [[WACV](https://arxiv.org/pdf/1912.08487.pdf)] FuseSeg: LiDAR Point Cloud Segmentation Fusing Multi-Modal Data. [__`seg.`__ __`aut.`__]
 - [[WACV](http://openaccess.thecvf.com/content_WACV_2020/papers/Ma_Global_Context_Reasoning_for_Semantic_Segmentation_of_3D_Point_Clouds_WACV_2020_paper.pdf)] Global Context Reasoning for Semantic Segmentation of 3D Point Clouds. [__`seg.`__]
 - [[WACV](http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_PonitPoseNet_Point_Pose_Network_for_Robust_6D_Object_Pose_Estimation_WACV_2020_paper.pdf)] PointPoseNet: Point Pose Network for Robust 6D Object Pose Estimation. [__`oth.`__]
@@ -720,32 +704,23 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 - [[NIPS](https://arxiv.org/pdf/2010.03318.pdf)] Rotation-Invariant Local-to-Global Representation Learning for 3D Point Cloud. [__`Representation`__]
 - [[NIPS](https://papers.nips.cc/paper/2020/file/fc152e73692bc3c934d248f639d9e963-Paper.pdf)] MuSCLE: Multi Sweep Compression of LiDAR using Deep Entropy Models. [__`Compression`__]
 - [[NIPS](https://papers.nips.cc/paper/2020/file/9b72e31dac81715466cd580a448cf823-Paper.pdf)] Group Contextual Encoding for 3D Point Clouds. [__`Detection`__]
-- 
 - [[ICML](https://arxiv.org/pdf/2007.04525.pdf)] PointMask: Towards Interpretable and Bias-Resilient Point Cloud Processing. [__`Classification.`__]
-- 
 - [[ICRA](https://arxiv.org/pdf/2003.08624.pdf)] DeepTemporalSeg: Temporally Consistent Semantic Segmentation of 3D LiDAR Scans. [__`seg.`__]
 - [[ICRA](https://arxiv.org/abs/1909.07137v1)] PLIN: A Network for Pseudo-LiDAR Point Cloud Interpolation. [__`completion.`__]
 - [[ICRA](https://francisengelmann.github.io/DPC/engelmann_icra2020_dpc.pdf)] Dilated Point Convolutions: On the Receptive Field Size of Point Convolutions on 3D Point Clouds. [__`cls.`__]
 - [[ICRA](https://arxiv.org/abs/2004.11647)] Any Motion Detector: Learning Class-agnostic Scene Dynamics from a Sequence of LiDAR Point Clouds. [__`det.`__]
-- 
 - [[TPAMI](https://arxiv.org/pdf/1909.09287.pdf)] Spherical Kernel for Efficient Graph Convolution on 3D Point Clouds. [__`cls.`__]
-- 
 - [[ICLR](https://arxiv.org/pdf/1904.00069.pdf)] Unpaired Point Cloud Completion on Real Scans using Adversarial Training.[[tensorflow](https://github.com/ChenXuelinCXL/pcl2pcl-gan-pub )] [__`com.`__]
-- 
 - [[ACIIDS](https://link.springer.com/chapter/10.1007/978-3-030-41964-6_41)] Semi-supervised Representation Learning for 3D Point Clouds. [__`oth.`__]
--
 - [[CG](https://www.sciencedirect.com/science/article/abs/pii/S0097849320300224)] ConvPoint: Continuous convolutions for point cloud processing. [__`oth.`__]
 -
 - [[ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300605)] Deep point embedding for urban classification using ALS point clouds: A new perspective from local to global. [__`oth.`__]
--
 - [[GMP](https://arxiv.org/pdf/2003.08240.pdf)] LRC-Net: Learning Discriminative Features on Point Clouds by EncodingLocal Region Contexts. [__`cls.`__]
--
 - [[SPM](https://arxiv.org/abs/2004.11563)] Deep Feature-preserving Normal Estimation for Point Cloud Filtering. [__`normal.`__]
--
 - [[Master Thesis](https://pdfs.semanticscholar.org/4303/8a62b3e3b2f44d7a9cc50ff69e7586a758cc.pdf)] Neighborhood Pooling in Graph Neural Networks for 3D and 4D Semantic Segmentation. [__'seg.'__]
 
----
 ## 2021
+
 - [[arXiv](https://arxiv.org/abs/2012.11409)] 3D Object Detection with Pointformer. [__`Detection.`__]
 - [[arXiv](https://arxiv.org/abs/2011.13328)] DyCo3D: Robust Instance Segmentation of 3D Point Clouds through Dynamic Convolution. [__`Segmentation.`__]
 - [[arXiv](https://arxiv.org/abs/2012.10217)] SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation. [__`Segmentation.`__]
